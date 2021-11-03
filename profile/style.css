@@ -1,0 +1,149 @@
+body {
+  color: #343633;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  background-image: linear-gradient(to right bottom, #f0f1d0, #e5ecc9, #dae7c4, #cee3be, #c2deba, #b8debf, #afddc5, #a7dccb, #a6ded9, #abdee4, #b4deec, #c0def1);
+  height: 100vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+h1 {
+  margin: none;
+  padding: none;
+  text-align: center;
+  width: 100vw;
+  color: #343633;
+  font-family: 'Comfortaa';
+  font-weight: bold;
+  font-size: 3em;
+  line-height: 1.5;
+  border-top: #343633;
+  border-bottom: #343633;
+  border-style: solid;
+  border-right: none;
+  border-left: none;
+  letter-spacing: 0.5em;
+}
+
+h2 {
+  color: #343633;
+  font-family: 'Comfortaa';
+  font-weight: bolder;
+  font-size: 1.5em;
+  line-height: auto;
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
+}
+
+p {
+  color: #343633;
+  font-weight: lighter;
+  font-size: 1em;
+  line-height: auto;
+  margin-bottom: 2.5vh;
+}
+
+.image-container {
+  width: 20vw;
+  height: 25vw;
+  border-radius: 15%;
+  border-style: solid;
+  border-color: #343633;
+  border-width: thin;
+  margin: auto;
+  background-image: url('https://lewagonnantes.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Faab88a83-fd30-415e-95c5-987cd5983b2a%2Fvincent.jpg?table=block&id=0b19c6c3-40ea-4e68-9ad8-02b97ef4b018&spaceId=ae8482c0-ceec-4b7a-972d-47493d9c3b58&width=2000&userId=&cache=v2/username/Desktop/backgrou/Users/sp82953/code/vincentvignali/fullstack-challenges/04-Front-End/01-HTML-and-CSS/01-Profile-content/profile/images/LeWagonPicture.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+
+a {
+  text-decoration: none ;
+  color: #343633;
+  width: 500px
+  }
+
+a:visited {
+  text-decoration: none;
+  color: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.hero-section {
+  text-align: center;
+  width: 50vw;
+  margin: auto;
+}
+
+.list {
+  list-style-type: none;
+  margin: auto;
+  padding: auto;
+  align-content: center;
+}
+
+.list-container{
+   padding-inline-start: 0px;
+}
+.element-list{
+  margin-top: 50px;
+  list-style-type: none;
+  margin: auto;
+}
+
+.btn-orange:hover {
+  cursor: pointer;
+}
+
+.btn-orange {
+color: white;
+position: absolute;
+background-color: #f19101 ;
+width: 50vw;
+margin: auto;
+border-style: solid;
+border-width: thin;
+border-color: #f18f01;
+border-radius: 15px;
+text-align: center;
+align-items: center;
+padding: 2vh;
+z-index: 1;
+font-family: 'Comfortaa';
+}
+
+.btn-orange:hover {
+  margin-top: 7.5px;
+  margin-left: 7.5px;
+}
+
+.btn-container {
+position: relative;
+}
+
+
+.box-shadow {
+position: absolute;
+width: 50vw;
+background-color:#000000c0 ;
+color: #000000c0 ;
+border-style: solid;
+border-width: thin;
+border-color: #000000c0 ;
+border-radius: 15px;
+text-align: center;
+align-items: center;
+padding: 2vh;
+z-index: -1;
+margin-top: 7.5px;
+margin-left: 7.5px;
+}
+
+a.btn-link {
+  text-underline-offset : 10%;
+  font-weight: 700;
+}
